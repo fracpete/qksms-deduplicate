@@ -13,6 +13,6 @@ optional arguments:
   -i FILE, --input FILE
                         The JSON file to process. (default: None)
   -o FILE, --output FILE
-                        The JSON file to save the deduplicate data to.
+                        The JSON file to save the deduplicated data to.
                         (default: None)
 ```

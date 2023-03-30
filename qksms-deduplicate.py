@@ -52,7 +52,7 @@ def main(args=None):
         description='Deduplicates a QKSMS Backup JSON archive.',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("-i", "--input", metavar="FILE", required=True, help="The JSON file to process.")
-    parser.add_argument("-o", "--output", metavar="FILE", required=True, help="The JSON file to save the deduplicate data to.")
+    parser.add_argument("-o", "--output", metavar="FILE", required=True, help="The JSON file to save the deduplicated data to.")
     parsed = parser.parse_args(args=args)
     deduplicate(parsed.input, parsed.output)
 
